@@ -1,0 +1,19 @@
+.categorySticker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 21.74vw;
+  height: 11.39vw;
+  margin-left: 3.9vw;
+  margin-bottom: 3.9vw;
+  font-size: 4.56vw;
+  background-size: 21.74vw, 11.39vw;
+  background-image: url('./assets/category_sticker.png');
+}
+
+.categoryContents {
+  position: relative;
+  top: -0.33vw;
+  left: -0.33vw;
+}

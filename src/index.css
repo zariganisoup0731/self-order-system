@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-jp-200 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.noto-sans-jp-300 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.noto-sans-jp-400 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-jp-500 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-sans-jp-600 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-sans-jp-700 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-sans-jp-900 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedgwick-ave-regular {
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-400 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-500 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.caveat-600 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.caveat-700 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "receipt-font";
+  src: url("./assets/レシートフォント.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "merchant-font";
+  src: url("./assets/MerchantCopy.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lefthanded-girlfriend-font';
+  src: url("./assets/lefthanded-girlfriend_free.otf") format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tegaki-zatsu-font';
+  src: url("./assets/851tegaki_zatsu_normal_0883.ttf") format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'yosugara-font';
+  src: url('./assets/yosugaraver1_2.ttf') format('truetype');
+}
+
+.receipt-font {
+  font-family: "receipt-font";
+}
+
+.merchant-font {
+  font-family: "merchant-font";
+}
+
+.lefthanded-girlfriend-font {
+  font-family: 'lefthanded-girlfriend-font';
+}
+
+.tegaki-zatsu-font {
+  font-family: 'tegaki-zatsu-font';
+}
+
+.yosugara-font {
+  font-family: 'yosugara-font';
+}
+
+html {
+  font-size: max(16px, 2.34vw);
+}
+
+a {
+  color: inherit; /* 親要素の色を引き継ぐ */
+  text-decoration: none; /* 下線を消す */
+}
+
