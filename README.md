@@ -1,73 +1,22 @@
-# React + TypeScript + Vite
+# 概要
+授業課題で制作した、架空のカフェのセルフオーダーシステム。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 制作意図
+SNSが普及している現代においては、流行を抑えつつ、話題性に富んだ体験を提供することが重要であると考えた。
+そのため、今回作成したセルフオーダーシステムでは、昨今特に若者の間でシール帳や、ZINEなど紙媒体のアナログなものが流行していることを踏まえ、"まるで一冊のノートをめくるようなオーダー体験"をコンセプトに据えた。
+制作物には、シール、テープ、レシート、IDカードなどのモチーフを随所に盛り込んでいる。
 
-Currently, two official plugins are available:
+# 主な機能
+* カテゴリごとのソート機能
+* 各商品の注文
+* カートに入れた商品の参照・注文の修正
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 工夫点
+* セルフオーダーシステムでは、実際の使用時には金銭のやり取りが発生するため、商品の注文時や注文修正時に意図しない不具合などが発生しないよう、状態管理などを活用し矛盾のない実装に努めた。
+* コンセプトに沿ったモチーフを用いつつも、ユーザビリティの低下を防ぐため、場合に応じてコンセプトに寄りすぎないデザインを心がけ、良い塩梅を目指した。
+* 利用開始時にページをめくるようなアニメーションを取り入れ、コンセプトの強化、利用者をわくわくさせるような演出を実現した。
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# 使用言語・技術
+* TypeScript
+* React
+* Vite
