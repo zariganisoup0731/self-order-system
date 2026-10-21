@@ -32,12 +32,12 @@ function OrderList() {
                   </div>
                   <div />
                   {progress == '0' &&
-                    <button type='button' onClick={(e) => setOrderToRemove(order)} className={styles.removeButtonContainer}>
+                    <button type='button' onClick={() => setOrderToRemove(order)} className={styles.removeButtonContainer}>
                       <img src={trashSticker} style={{width: '80%', filter: 'drop-shadow(max(2px, 0.29vw) max(2px, 0.29vw) 2px rgb(0 0 0 / 25%)'}}/>
                     </button>
                   }
                   {progress != '0' &&
-                    <button type='button' disabled onClick={(e) => setOrderToRemove(order)} className={styles.removeButtonContainer}>
+                    <button type='button' disabled onClick={() => setOrderToRemove(order)} className={styles.removeButtonContainer}>
                       <img src={trashStickerDisable} style={{width: '80%', filter: 'drop-shadow(max(2px, 0.29vw) max(2px, 0.29vw) 2px rgb(0 0 0 / 25%)'}}/>
                     </button>
                   }
@@ -61,12 +61,12 @@ function OrderList() {
                   </div>
                   <div />
                   {progress == '0' &&
-                    <button type='button' onClick={(e) => setOrderToRemove(order)} className={styles.removeButtonContainer}>
+                    <button type='button' onClick={() => setOrderToRemove(order)} className={styles.removeButtonContainer}>
                       <img src={trashSticker} style={{width: '80%', filter: 'drop-shadow(max(2px, 0.29vw) max(2px, 0.29vw) 2px rgb(0 0 0 / 25%)'}}/>
                     </button>
                   }
                   {progress != '0' &&
-                    <button type='button' disabled onClick={(e) => setOrderToRemove(order)} className={styles.removeButtonContainer}>
+                    <button type='button' disabled onClick={() => setOrderToRemove(order)} className={styles.removeButtonContainer}>
                       <img src={trashStickerDisable} style={{width: '80%', filter: 'drop-shadow(max(2px, 0.29vw) max(2px, 0.29vw) 2px rgb(0 0 0 / 25%)'}}/>
                     </button>
                   }

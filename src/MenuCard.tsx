@@ -1,9 +1,6 @@
 import type { MenuCardInfo } from './MenuCardList'
 import styles from './MenuCard.module.css'
 import tape from './assets/tape.png'
-import crown1 from './assets/crown_1.png'
-import crown2 from './assets/crown_2.png'
-import crown3 from './assets/crown_3.png'
 
 type Props = {
   menuCardInfo: MenuCardInfo;

@@ -76,7 +76,7 @@ function PurchaseConfirmed() {
               ご注文の商品が用意できました
             </div>
             <div className={styles.buttonContainer}>
-              <button onClick={(e) => setReady('')} className={styles.okButton}>
+              <button onClick={() => setReady('')} className={styles.okButton}>
                 OK
               </button>
             </div>
