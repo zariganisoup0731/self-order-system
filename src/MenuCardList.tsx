@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './MenuCardList.module.css'
 import MenuCard from './MenuCard'
 import dripCoffeeSticker from './assets/dripcoffeeSticker.png'

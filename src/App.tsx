@@ -1,6 +1,5 @@
 import styles from './App.module.css'
 import { useState } from 'react'
-import { useEffect } from 'react';
 
 function App() {
   const [isFlipped, setIsFlipped] = useState(false);

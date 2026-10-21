@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, ScrollRestoration } from 'react-router'
 import { useEffect } from 'react'
 import styles from './PurchasedConfirmed.module.css'

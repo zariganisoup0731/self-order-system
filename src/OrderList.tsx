@@ -1,4 +1,3 @@
-import React from 'react'
 import { useOrder } from './OrderContext'
 import styles from './OrderList.module.css'
 import trashSticker from './assets/trashSticker.png'

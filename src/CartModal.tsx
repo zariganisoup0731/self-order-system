@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router'
 import { useOrder } from './OrderContext'
 import styles from './CartModal.module.css'

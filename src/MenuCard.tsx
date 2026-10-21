@@ -1,4 +1,3 @@
-import React from 'react'
 import type { MenuCardInfo } from './MenuCardList'
 import styles from './MenuCard.module.css'
 import tape from './assets/tape.png'

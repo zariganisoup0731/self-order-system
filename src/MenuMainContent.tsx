@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from './MenuMainContent.module.css'
 import type { MainContentIds } from './Menu';
 import Category from './Category';
 import MenuCardList from './MenuCardList';
