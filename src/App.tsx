@@ -1,13 +1,15 @@
+import { useNavigate } from 'react-router';
 import styles from './App.module.css'
 import { useState } from 'react'
 
 function App() {
   const [isFlipped, setIsFlipped] = useState(false);
+  const navigate = useNavigate();
 
   const linkToMenu = () => {
     setIsFlipped(true);
     setTimeout(() => {
-      window.location.href = '/menu';
+      navigate("/menu")
     }, 1300);
   }
 
