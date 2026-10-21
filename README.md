@@ -2,7 +2,8 @@
 授業課題で制作した、架空のカフェのセルフオーダーシステム。
 
 ## サイトURL
-https://zariganisoup0731.github.io/self-order-system/
+https://zariganisoup0731.github.io/self-order-system/  
+タブレット・スマートフォン（タブレット推奨）での利用を想定しているため、ブラウザの開発者ツールなどで画面サイズを変更してご利用ください。
 
 ## 制作意図
 SNSが普及している現代においては、流行を抑えつつ、話題性に富んだ体験を提供することが重要であると考えた。
