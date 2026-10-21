@@ -1,4 +1,3 @@
-import React from 'react'
 import type { SortingButtonContents } from './Menu';
 import styles from './SortingButtonList.module.css'
 

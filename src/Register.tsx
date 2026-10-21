@@ -1,4 +1,3 @@
-import React from 'react'
 import { ScrollRestoration } from 'react-router'
 import { Link } from 'react-router'
 import styles from './Register.module.css'

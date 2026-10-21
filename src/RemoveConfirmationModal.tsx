@@ -1,4 +1,3 @@
-import React from 'react'
 import { useOrder } from './OrderContext'
 import styles from './RemoveConfirmationModal.module.css'
 
@@ -15,12 +14,12 @@ function RemoveConfirmationModal() {
         </div>
         <div className={styles.buttonsContainer}>
           <div className={styles.buttonContainer}>
-            <button onClick={(e) => setOrderToRemove(null)} className={styles.cancelButton}>
+            <button onClick={() => setOrderToRemove(null)} className={styles.cancelButton}>
               キャンセル
             </button>
           </div>
           <div className={styles.buttonContainer}>
-            <button onClick={(e) => removeOrder(orderToRemove!)} className={styles.removeButton}>
+            <button onClick={() => removeOrder(orderToRemove!)} className={styles.removeButton}>
               削除
             </button>
           </div>

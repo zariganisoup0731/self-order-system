@@ -16,7 +16,7 @@ function App() {
       <div className={`${styles.bookContainer}`}>
           {/* 各ページ */}
           <div className={styles.page} id="page1" style={{transform: isFlipped ? 'rotateY(-180deg)' : '', zIndex: isFlipped ? 3 : 2}} >
-              <button onClick={(e) => linkToMenu()} className={styles.pageFront}>
+              <button onClick={() => linkToMenu()} className={styles.pageFront}>
                 <div className={styles.bookCover}>
                   <div />
                   <div className={styles.labelContainer}>
