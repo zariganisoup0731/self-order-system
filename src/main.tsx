@@ -11,12 +11,17 @@ import PurchaseConfirmed from './PurchaseConfirmed.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import { OrderProvider } from './OrderContext.tsx'
 
-const router = createBrowserRouter([
-  {path: "/", Component: App},
-  {path:"/menu", Component: Menu},
-  {path:'/register', Component: Register},
-  {path:'/purchasedConfirmed', Component: PurchaseConfirmed}
-])
+const router = createBrowserRouter(
+  [
+    {path: "/", Component: App},
+    {path:"/menu", Component: Menu},
+    {path:'/register', Component: Register},
+    {path:'/purchasedConfirmed', Component: PurchaseConfirmed}
+  ],
+  {
+    basename: import.meta.env.BASE_URL
+  }
+)
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
